@@ -36,16 +36,25 @@ tr:hover {
 .table {
     border-collapse: collapse;
     width: 100%;
-  }
-  th, td {
+}
+
+th,
+td {
     padding: 8px;
     text-align: center;
-  }
-  th {
+}
+
+th {
     background-color: #00ff08;
     color: rgb(30, 182, 0);
-  }
-  td {
+}
+
+td {
     background-color: #863f3f;
-  }
-  
+}
+
+h1 {
+    color: #00ff08;
+    background-color: #f11212;
+    text-align: center;
+}

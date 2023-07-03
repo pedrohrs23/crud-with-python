@@ -100,7 +100,7 @@ DATABASES = {
 # """ INICIO DA CONEXÃO COM O BANCO PEDRO """
 # conexao = {
 #     'user': 'root',
-#     'password': 'root1704',
+#     'password': '******',
 #     'host': 'localhost',
 #     'database': 'sistema',
 # }
