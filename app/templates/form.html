@@ -20,9 +20,10 @@
     </div>
 
     <div class="col-8 m-auto pt-4 pb-2 text-center">
+        <div id="result"></div>
+
         <form name="form" id="form" action="{%if db%}/update/{{db.id}}/{%else%}/create/{%endif%}" method="post">
             {% csrf_token %}
-            <!-- {{form.as_p}} -->
             <div class="form-group mt-4">Protocolo: {{form.Protocolo}}</div>
             <div class="form-group mt-4">Status: {{form.Status}}</div>
             <div class="form-group mt-4">Paciente: {{form.Paciente}}</div>
@@ -35,10 +36,8 @@
             <input type="submit" class="btn btn-success" value="Salvar">
         </form>
     </div>
-
-
-
-
+    {% load static %}
+    <script src="{% static 'javascript.js' %}"></script>
 </body>
 
 </html>
